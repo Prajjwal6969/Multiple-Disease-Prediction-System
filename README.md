@@ -18,13 +18,13 @@ Features
     
     Clear result display
     
-Built with:
+# Built-with:
 
   Python
   Streamlit (for web interface)
   Scikit-learn (for machine learning models)
 
-Installation
+# Installation
   Clone the repository:
     bash
     git clone https://github.com/yourusername/multiplediseasepredictionsystem.git
@@ -38,13 +38,13 @@ Installation
   
     bash
     streamlit run mutiplediseaseprediction1.py
-Usage
+# Usage
   Select the disease you want to predict from the sidebar menu
   Fill in the required health parameters
   Click the prediction button
   View your results
 
-Models Included
+# Models-Included
   Diabetes Prediction Model:
   
     Uses parameters like Glucose level, BMI, Age, etc.
@@ -57,7 +57,7 @@ Models Included
   
     Uses tumor characteristics like radius, texture, perimeter, etc.
 
-File Structure
+#File-Structure
 text
 multiplediseasepredictionsystem/
 ├── mutiplediseaseprediction1.py       # Main application file
@@ -65,7 +65,7 @@ multiplediseasepredictionsystem/
 ├── trained_heart_model.sav            # Heart disease prediction model
 ├── breast_cancer_model.sav            # Breast cancer prediction model
 └── README.md                          # This file
-Requirements
+# Requirements
   Python 3.7+
   
   Streamlit
@@ -74,7 +74,7 @@ Requirements
 
   Pickle
 
-Contributing
+# Contributing
   Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 
